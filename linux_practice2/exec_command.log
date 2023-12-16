@@ -211,4 +211,111 @@
   211  vi .gitignore
   212  cd /root/server_lesson
   213  history 300
+214  cd /root/server_lesson/linux_practice2
+  215  touch exec_command.log
+  216  vi exec_command.log
+  217  vi exec_command.log
+  218  ls
+  219  ls -a
+  220  cd /root/server_lesson
+  221  git add /root/server_lesson
+  222  git commit -m 'Linux practice'
+  223  git config --global user.name "ei1017"
+  224  git config --global user.email "tsurugaxotaniy1600@gmail.com"
+  225   git config --global -l
+  226  git add /root/server_lesson
+  227  git commit -m 'Linux practice'
+  228  ls linux_practice2/trash/gizumo20.md ~ gizumo29.md
+  229  cd/root/server_lesson/linux_practice2/trash
+  230  cd /root/server_lesson/linux_practice2
+  231  ls
+  232   cd /root/server_lesson/linux_practice2/trash
+  233  ls
+  234  cd /root/server_lesson/linux_practice2
+  235  vi .gitignore
+  236  cd /root/server_lesson/linux_practice2/trash
+  237  ls
+  238  ls -files
+  239  git ls-files
+  240  git rm —cached フ? gizumo2?.md
+  241  git rm -cashed gizumo20.md
+  242  git rm --cashed gizumo20.md
+  243  cd /root/server_lesson/linux_practice2
+  244  vi .gitignore
+  245   vi .gitignore
+  246  cd /root/server_lesson/linux_practice2/trash
+  247  ls
+  248  ls -files
+  249  cd /root/server_lesson/linux_practice2
+  250  vi .gitignore
+  251  git add  /root/server_lesson
+  252  git commit -m 'changed'
+  253  cd  /root/server_lesson
+  254  git push origin  /root/server_lesson
+  255  git push origin /server_lesson
+  256  git push origin server_lesson
+  257  git restore --staged .
+  258  git reset HEAD
+  259  git status
+  260  cd  /root/server_lesson/linux_practice2
+  261  ls
+  262  vi .gitignore
+  263  vi .gitignore
+  264  /root/server_lesson/linux_practice2/trash
+  265  ls
+  266  cd /root/server_lesson/linux_practice2/trash
+  267  ls
+  268  cd /root/server_lesson/linux_practice2
+  269  vi .gitignore
+  270  cd /root/server_lesson/linux_practice2/trash
+  271  ls
+  272   cd /root/server_lesson/linux_practice2
+  273  vi .gitignore
+  274  cd /root/server_lesson/linux_practice2/trash
+  275  ls
+  276  cd /root/server_lesson/linux_practice2
+  277  vi .gitignore
+  278  cd /root/server_lesson
+  279  ls
+  280  git add /root/server_lesson
+  281  git commit -m "Linux_lesson practice"
+  282  git push origin Linux_practice
+  283  git remote add origin https://github.com/ei1017/Linux_practice.git
+  284  git remote -v
+  285  git push origin main
+  286  git push origin main
+  287  git push origin main
+  288  git status
+  289  git add.
+  290  git add .
+  291  git status
+  292  cd /
+  293  ls
+  294  git add .
+  295  cd /root/server_lesson
+  296  cd /root
+  297  ls
+  298  cd /root/server_lesson
+  299  git status
+  300  git log
+  301  q
+  302  git remote add origin https://github.com/ei1017/Linux_practice.git
+  303  git remote -v
+  304  git push origin master
+  305  cd /root/server_lesson/linux_practice2
+  306  vi .gitignore
+  307  cd /root/server_lesson
+  308  git add .gitignore
+  309  cd /root/server_lesson/linux_practice2
+  310  git add .gitignore
+  311  git commit -m "change .gitignore"
+  312  git push origin master
+  313  git push origin master
+  314  vi .gitignore
+  315  cd /root/server_lesson/linux_practice2/trash
+  316  ls
+  317  git add .
+  318  cd /root/server_lesson/linux_practice2
+  319  vi exec_command.log
+  320  history 300
 
