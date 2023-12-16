@@ -5,12 +5,10 @@
 - touch
 - &&
 - cp
-* cp -r
++ cp -r
 - mv
 - rm
-* rm -r
++ rm -r
 - cat
-- >
-* >>
 - vi
 
