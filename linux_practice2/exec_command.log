@@ -318,4 +318,66 @@
   318  cd /root/server_lesson/linux_practice2
   319  vi exec_command.log
   320  history 300
+ 1  pwd
+    2  cd /root
+    3  ls
+    4  cd /root/server_lesson
+    5  ls
+    6   cd /root/server_lesson/linux_practice2
+    7  vi .gitignore
+    8  cd /root/server_lesson/linux_practice2/trash
+    9  ls
+   10   cd /root/server_lesson/linux_practice2
+   11  git rm -r --cached .gitignore
+   12  git add .
+   13  git commit -m "update: .gitignore changed"
+   14  git push origin master
+   15  vi .gitignore
+   16  cd /root/server_lesson/linux_practice2/trash
+   17  ls
+   18  cd /root/server_lesson/linux_practice2
+   19  git rm -r --cached .gitignore
+   20  git add .gitignore
+   21  git commit -m "update: .gitignore changed file-name"
+   22  git push origin master
+   23  vi .gitignore
+   24  git update-index --skip-worktree フ? .gitignore
+   25  git update-index --skip-worktree .gitignore 
+   26  git status
+   27  git add .
+   28  git status
+   29  git commit -m ".gitignore changed"
+   30  git push origin master
+   31  cd /root/server_lesson/linux_practice2/trash
+   32  ls
+   33  cd /root/server_lesson/linux_practice2
+   34  vi .gitignore
+   35  git update-index --skip-worktree .gitignore
+   36  git status
+   37  cd /root/server_lesson/linux_practice2/trash
+   38  ls
+   39  cd /root/server_lesson/linux_practice2
+   40  git rm -r --cached .gitignore
+   41  git status --ignored
+   42  git status
+   43  cd /root/server_lesson/linux_practice2/trash
+   44  ls
+   45  cd /root/server_lesson/linux_practice2
+   46  vi .gitignore
+   47  cd /root/server_lesson/linux_practice2/trash
+   48  ls
+   49  cd /root/server_lesson
+   50  git add .
+   51  git commit -m "update: .gitignore updated"
+   52  git push origin master
+   53  git status
+   54  cd /root/server_lesson/linux_practice2/trash
+   55  git rm -r --cached trash
+   56  cd /root/server_lesson/linux_practice2
+   57  git rm -r --cached trash
+   58  vi .gitignore
+   59  git add trash
+   60  git commit -m "REMOVE: cach of trash is clear"
+   61  git push origin master
+   62  history 300
 
